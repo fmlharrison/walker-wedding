@@ -17,4 +17,8 @@ li {
 .header-link {
   display: inline-flex;
   align-items: center;
+  font-family: "Great Vibes", cursive;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
 }
