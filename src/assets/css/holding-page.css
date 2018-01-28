@@ -1,5 +1,20 @@
 .holding-page {
-  height: 80vh;
+  height: 100vh;
+  position: relative;
+}
+
+.wedding-logo {
+  height: 100vh;
+  margin: 0 auto;
+  opacity: 0.1;
+  position: absolute;
+  left: 50%; /* horizontal alignment */
+  top: 50%; /* vertical alignment */
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0);
+}
+
+.overlay {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,19 +22,24 @@
   text-align: center;
   flex-direction: column;
   flex-grow: 1;
+  position: absolute;
+  left: 50%; /* horizontal alignment */
+  top: 50%; /* vertical alignment */
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0);
 }
 
-.holding-page > .main {
-    margin: 10px;
+.main {
+  margin: 20px;
 }
 
 .holding-text-title {
-    font-family: 'Forum', cursive;
-    font-size: 3em;
+  font-family: "Forum", cursive;
+  font-size: 3em;
 }
 
 .holding-text-details {
-    font-family: 'Forum', cursive;
-    font-size: 1.5em;
-    margin: 5px;
+  font-family: "Forum", cursive;
+  font-size: 1.5em;
+  margin: 5px;
 }
