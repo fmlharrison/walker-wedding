@@ -1,8 +1,10 @@
 .title {
   display: inline-flex;
   align-items: center;
-  font-family: "Great Vibes", cursive;
-  color: black;
-  padding: 20px 0px;
-  font-size: 2.5em;
+  height: 100%;
+}
+
+.header-logo {
+  height: 100%;
+  object-fit: contain;
 }

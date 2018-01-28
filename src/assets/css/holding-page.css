@@ -1,0 +1,25 @@
+.holding-page {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-align: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.holding-page > .main {
+    margin: 10px;
+}
+
+.holding-text-title {
+    font-family: 'Forum', cursive;
+    font-size: 3em;
+}
+
+.holding-text-details {
+    font-family: 'Forum', cursive;
+    font-size: 1.5em;
+    margin: 5px;
+}

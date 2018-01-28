@@ -7,6 +7,13 @@
   justify-content: space-between;
   width: 640px; }
 
+.section {
+  display: flex;
+  flex-direction: column; }
+  .section .section-name {
+    font-family: "Forum", cursive;
+    text-align: center; }
+
 .flipUnitContainer {
   display: block;
   position: relative;
@@ -30,7 +37,7 @@
   .upperCard span,
   .lowerCard span {
     font-size: 5em;
-    font-family: "Droid Sans Mono", monospace;
+    font-family: "Forum", cursive;
     font-weight: lighter;
     color: #333333; }
 
@@ -60,7 +67,7 @@
   overflow: hidden;
   backface-visibility: hidden; }
   .flipCard span {
-    font-family: "Droid Sans Mono", monospace;
+    font-family: "Forum", cursive;
     font-size: 5em;
     font-weight: lighter;
     color: #333333; }

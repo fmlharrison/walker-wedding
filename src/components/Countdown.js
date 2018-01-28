@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import CountdownUnitContainer from "./CountdownUnitContainer";
+import CountdownSection from "./CountdownSection";
 
 import "../assets/css/countdown.css";
 
@@ -95,25 +95,29 @@ class Countdown extends Component {
 
     return (
       <div className={"flipClock"}>
-        <CountdownUnitContainer
+        <CountdownSection
           unit={"days"}
           digit={days}
-          shuffle={daysShuffle}
+          shuffleUnit={daysShuffle}
+          unitName={"Days"}
         />
-        <CountdownUnitContainer
+        <CountdownSection
           unit={"hours"}
           digit={hours}
-          shuffle={hoursShuffle}
+          shuffleUnit={hoursShuffle}
+          unitName={"Hours"}
         />
-        <CountdownUnitContainer
+        <CountdownSection
           unit={"minutes"}
           digit={minutes}
-          shuffle={minutesShuffle}
+          shuffleUnit={minutesShuffle}
+          unitName={"Minutes"}
         />
-        <CountdownUnitContainer
+        <CountdownSection
           unit={"seconds"}
           digit={seconds}
-          shuffle={secondsShuffle}
+          shuffleUnit={secondsShuffle}
+          unitName={"Seconds"}
         />
       </div>
     );

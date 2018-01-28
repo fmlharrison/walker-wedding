@@ -1,8 +1,9 @@
 .header {
-  height: 70px;
+  height: 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 15px 0px;
 }
 
 li {

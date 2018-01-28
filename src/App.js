@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import "./App.css";
 
 import WeddingWrapper from "./components/WeddingWrapper";
-import LandingPage from "./components/LandingPage";
+import HoldingPage from "./components/HoldingPage";
 
 class App extends Component {
   render() {
     return (
       <WeddingWrapper>
-        <LandingPage />
+        <HoldingPage />
       </WeddingWrapper>
     );
   }
