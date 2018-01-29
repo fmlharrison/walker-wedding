@@ -9,6 +9,7 @@
 }
 
 .landing-image {
-  height: 80%;
+  height: 100%;
   margin: 0 auto;
+  border-radius: 50%;
 }
