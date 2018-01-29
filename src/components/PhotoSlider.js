@@ -13,6 +13,7 @@ class PhotoSlider extends Component {
   render() {
     const settings = {
       dots: true,
+      arrows: false,
       fade: true,
       infinite: true,
       slidesToShow: 1,
