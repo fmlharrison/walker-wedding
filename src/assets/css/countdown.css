@@ -5,7 +5,7 @@
 .flipClock {
   display: flex;
   justify-content: space-between;
-  width: 640px; }
+  width: 320px; }
 
 .section {
   display: flex;
@@ -13,15 +13,15 @@
   .section .section-name {
     font-family: "Forum", cursive;
     text-align: center;
-    font-size: 1.5em; }
+    font-size: 1em; }
 
 .flipUnitContainer {
   display: block;
   position: relative;
-  width: 140px;
-  height: 120px;
+  width: 70px;
+  height: 60px;
   perspective-origin: 50% 50%;
-  perspective: 300px;
+  perspective: 150px;
   background-color: white;
   border-radius: 3px;
   box-shadow: 0px 10px 10px -10px grey; }
@@ -37,7 +37,7 @@
   border: 1px solid whitesmoke; }
   .upperCard span,
   .lowerCard span {
-    font-size: 5em;
+    font-size: 2.5em;
     font-family: "Forum", cursive;
     font-weight: lighter;
     color: #333333; }
@@ -63,13 +63,13 @@
   justify-content: center;
   position: absolute;
   left: 0;
-  width: 140px;
-  height: 60px;
+  width: 70px;
+  height: 30px;
   overflow: hidden;
   backface-visibility: hidden; }
   .flipCard span {
     font-family: "Forum", cursive;
-    font-size: 5em;
+    font-size: 2.5em;
     font-weight: lighter;
     color: #333333; }
   .flipCard.unfold {

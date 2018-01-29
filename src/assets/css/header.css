@@ -4,6 +4,7 @@
   flex-direction: row;
   justify-content: space-around;
   padding: 15px 0px;
+  margin-bottom: 20px;
 }
 
 li {

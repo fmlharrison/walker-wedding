@@ -18,14 +18,14 @@ $turnDuration: 0.6s;
 $border: whitesmoke;
 $card: white;
 $font-family: 'Forum', cursive;
-$font-size: 5em;
+$font-size: 2.5em;
 $font-width: lighter;
 $font-color: lighten(black, 20%);
 
 .flipClock {
   display: flex;
   justify-content: space-between;
-  width: 4 * 140px + 80px;
+  width: 4 * 70px + 40px;
 }
 
 .section {
@@ -35,17 +35,17 @@ $font-color: lighten(black, 20%);
   .section-name {
     font-family: $font-family;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 
 .flipUnitContainer {
   display: block;
   position: relative;
-  width: 140px;
-  height: 120px;
+  width: 70px;
+  height: 60px;
   perspective-origin: 50% 50%;
-  perspective: 300px;
+  perspective: 150px;
   background-color: $card;
   border-radius: 3px;
   box-shadow: 0px 10px 10px -10px grey;
@@ -96,8 +96,8 @@ $font-color: lighten(black, 20%);
   justify-content: center;
   position: absolute;
   left: 0;
-  width: 140px;
-  height: 60px;
+  width: 70px;
+  height: 30px;
   overflow: hidden;
   backface-visibility: hidden;
 
