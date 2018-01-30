@@ -10,7 +10,9 @@ class WeddingWrapper extends Component {
     return (
       <div className="wrapper">
         <Header />
-        {this.props.children}
+        <div className="main">
+          {this.props.children}
+        </div>
         <Footer />
       </div>
     );

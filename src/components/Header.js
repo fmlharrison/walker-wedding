@@ -1,20 +1,29 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 import "../assets/css/header.css";
 import Title from "./Title";
 
-const left_links = ["Our Story", "Our Family", "Our Firends"];
+const left_links = [
+  { name: "Our Story", href: "our-story" },
+  { name: "Our Family", href: "our-family" },
+  { name: "Our Firends", href: "our-friends" }
+];
 
-const right_links = ["The Big Day", "The Gifts", "RSVP"];
+const right_links = [
+  { name: "The Big Day", href: "the-big-day" },
+  { name: "The Gifts", href: "the-gifts" },
+  { name: "RSVP", href: "rsvp" }
+];
 
 class Header extends Component {
   renderHeaderLinks = headerLinks => {
     return headerLinks.map(link => {
       return (
         <li>
-          <a className="header-link" href="#">
-            {link}
-          </a>
+          <Link className="header-link" to={link.href}>
+            {link.name}
+          </Link>
         </li>
       );
     });
