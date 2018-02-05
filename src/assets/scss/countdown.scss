@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono");
+@import "common";
 
 //$easeIn: cubic-bezier(0.25, 0.46, 0.45, 0.94)
 //$easeOut: cubic-bezier(0.55, 0.085, 0.68, 0.53)
@@ -17,7 +17,6 @@ $turnDuration: 0.6s;
 
 $border: whitesmoke;
 $card: white;
-$font-family: 'Forum', cursive;
 $font-size: 2.5em;
 $font-width: lighter;
 $font-color: lighten(black, 20%);
@@ -33,7 +32,7 @@ $font-color: lighten(black, 20%);
   flex-direction: column;
 
   .section-name {
-    font-family: $font-family;
+    font-family: $main-font;
     text-align: center;
     font-size: 1em;
   }
@@ -63,7 +62,7 @@ $font-color: lighten(black, 20%);
 
   span {
     font-size: $font-size;
-    font-family: $font-family;
+    font-family: $main-font;
     font-weight: $font-width;
     color: $font-color;
   }
@@ -102,7 +101,7 @@ $font-color: lighten(black, 20%);
   backface-visibility: hidden;
 
   span {
-    font-family: $font-family;
+    font-family: $main-font;
     font-size: $font-size;
     font-weight: $font-width;
     color: $font-color;

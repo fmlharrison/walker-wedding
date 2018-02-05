@@ -5,6 +5,7 @@
   justify-content: space-around;
   padding: 15px 0px;
   margin-bottom: 20px;
+  min-height: 100px;
 }
 
 li {

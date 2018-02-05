@@ -1,18 +1,14 @@
 {
-    "joe": {
-        "father": {
-            "bio": "You won’t meet many people nicer than my Dad, he is extremely selfless, and like all children, I have got him to help me with some pretty thankless tasks. Whether it be dropping us at the airport in the early hours or answering the phone when I have a DIY issue, nothing is too much. He gets on with everyone, so I’m sure he will find you to tell you some stories on the wedding day. I was lucky enough to be my Dad’s best man when my parents got married, so hopefully he will enjoy being a part of our day as much I did being part of theirs."
-        },
-        "mother": {
-            "bio": "My Mum immediately welcomed Lucy into the family and I know she has supported Lucy through some tough times. She has done so much for me over the years and although I realise Mum’s are supposed to support their kids, this goes way beyond that! The person I have become, I owe to my Mum and we are probably more similar than either of us care to admit. She truly is a wonderful woman and I look forward to sharing our special day with her."
-        }
-    },
-    "lucy": {
-        "father": {
-            "bio": "Growing up, I thought it would be hard for me find a boyfriend that my Dad would accept. A father daughter relationship is a special but protective one. Imagine Dad’s disappointment when I found Joe and he couldn’t help but like him. My Dad and I have a unique bond that is hugely influenced by music, it has helped shape me into who I am today. On my wedding day, I am sure that he will be pretending he is fine but will actually be an emotional wreck."
-        },
-        "mother": {
-            "bio": "It is hard to find anyone who was as happy as my mum was when she found out we were engaged. She has loved Joe since day one, giving him larger food portions and looking after him. I have enjoyed sharing the wedding preparations with her- another special memory to add to the list. She is a kind and talented lady- make sure you check out her bunting at the wedding!"
-        }
-    }
+  "joe": {
+    "father":
+      "You won’t meet many people nicer than my Dad, he is extremely selfless, and like all children, I have got him to help me with some pretty thankless tasks. Whether it be dropping us at the airport in the early hours or answering the phone when I have a DIY issue, nothing is too much. He gets on with everyone, so I’m sure he will find you to tell you some stories on the wedding day. I was lucky enough to be my Dad’s best man when my parents got married, so hopefully he will enjoy being a part of our day as much I did being part of theirs.",
+    "mother":
+      "My Mum immediately welcomed Lucy into the family and I know she has supported Lucy through some tough times. She has done so much for me over the years and although I realise Mum’s are supposed to support their kids, this goes way beyond that! The person I have become, I owe to my Mum and we are probably more similar than either of us care to admit. She truly is a wonderful woman and I look forward to sharing our special day with her."
+  },
+  "lucy": {
+    "father":
+      "Growing up, I thought it would be hard for me find a boyfriend that my Dad would accept. A father daughter relationship is a special but protective one. Imagine Dad’s disappointment when I found Joe and he couldn’t help but like him. My Dad and I have a unique bond that is hugely influenced by music, it has helped shape me into who I am today. On my wedding day, I am sure that he will be pretending he is fine but will actually be an emotional wreck.",
+    "mother":
+      "It is hard to find anyone who was as happy as my mum was when she found out we were engaged. She has loved Joe since day one, giving him larger food portions and looking after him. I have enjoyed sharing the wedding preparations with her- another special memory to add to the list. She is a kind and talented lady- make sure you check out her bunting at the wedding!"
+  }
 }
