@@ -4,7 +4,7 @@
   height: 100px;
   @include flex-layout(row, space-around);
   padding: $piping;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   min-height: 100px;
 }
 

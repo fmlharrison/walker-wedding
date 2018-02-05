@@ -12,4 +12,5 @@ $radius: 50%;
   display: flex;
   flex-direction: $direction;
   justify-content: $alignment;
+  align-items: $alignment;
 }

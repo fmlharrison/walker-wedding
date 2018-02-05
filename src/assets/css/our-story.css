@@ -2,19 +2,24 @@
 @import url("https://fonts.googleapis.com/css?family=Forum");
 .our-story {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 100%; }
 
 .our-story-image {
-  height: 50vh;
+  height: 350px;
+  width: 350px;
   border-radius: 50%;
-  padding: 0px 30px; }
+  margin: 10px 0px; }
 
 .our-story-text {
   width: 100%;
   font-family: "Forum", cursive;
-  padding: 0px 30px;
-  font-size: 1em; }
+  font-size: 1em;
+  min-width: 500px;
+  width: 70%;
+  margin: 10px 0px;
+  text-align: center; }
 
 /*# sourceMappingURL=our-story.css.map */

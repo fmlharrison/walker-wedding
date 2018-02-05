@@ -1,21 +1,23 @@
 @import "common";
 
 .our-story {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-layout(column, center);
   height: 100%;
 }
 
 .our-story-image {
-  height: 50vh;
+  height: 350px;
+  width: 350px;
   border-radius: $radius;
-  padding: 0px 30px;
+  margin: $piping;
 }
 
 .our-story-text {
   width: 100%;
   font-family: $main-font;
-  padding: 0px 30px;
   font-size: 1em;
+  min-width: 500px;
+  width: 70%;
+  margin: $piping;
+  text-align: center;
 }
