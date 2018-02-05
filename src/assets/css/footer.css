@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes");
+@import url("https://fonts.googleapis.com/css?family=Forum");
 .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 15px 0px;
-    margin-top: 25px;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0px;
+  margin-top: 25px; }
+
+/*# sourceMappingURL=footer.css.map */

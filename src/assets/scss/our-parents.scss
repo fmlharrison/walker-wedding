@@ -1,15 +1,11 @@
 @import "common";
 
 .our-family {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  @include flex-layout(row, space-around);
 
   .parent-display {
     width: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex-layout(column, center);
     padding: $gutter;
     margin: $gutter;
   }
@@ -18,7 +14,7 @@
 .our-parents-photo {
   height: 250px;
   width: 250px;
-  border-radius: 50%;
+  border-radius: $radius;
 }
 
 .parent-info {

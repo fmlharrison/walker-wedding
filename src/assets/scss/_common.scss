@@ -3,4 +3,13 @@
 
 $main-font: "Forum", cursive;
 $alt-font: "Great Vibes", cursive;
+$font-colour: black;
 $gutter: 0px 15px;
+$piping: 10px 0px;
+$radius: 50%;
+
+@mixin flex-layout($direction, $alignment) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $alignment;
+}

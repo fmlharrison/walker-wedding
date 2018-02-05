@@ -1,0 +1,7 @@
+@import "common";
+
+.footer {
+  @include flex-layout(row, center);
+  padding: $piping;
+  margin-top: 25px;
+}

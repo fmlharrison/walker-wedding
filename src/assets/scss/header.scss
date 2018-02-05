@@ -1,0 +1,25 @@
+@import "common";
+
+.header {
+  height: 100px;
+  @include flex-layout(row, space-around);
+  padding: $piping;
+  margin-bottom: 20px;
+  min-height: 100px;
+}
+
+li {
+  list-style: none;
+  padding: $piping;
+  @include flex-layout(column, center);
+  text-align: center;
+}
+
+.header-link {
+  display: inline-flex;
+  align-items: center;
+  font-family: $alt-font;
+  text-decoration: none;
+  color: $font-colour;
+  font-size: 1.5em;
+}

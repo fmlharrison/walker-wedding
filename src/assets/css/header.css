@@ -1,21 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes");
+@import url("https://fonts.googleapis.com/css?family=Forum");
 .header {
   height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 15px 0px;
+  padding: 10px 0px;
   margin-bottom: 20px;
-  min-height: 100px;
-}
+  min-height: 100px; }
 
 li {
   list-style: none;
   padding: 10px 0px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  text-align: center;
-}
+  justify-content: center;
+  text-align: center; }
 
 .header-link {
   display: inline-flex;
@@ -23,5 +23,6 @@ li {
   font-family: "Great Vibes", cursive;
   text-decoration: none;
   color: black;
-  font-size: 1.5em;
-}
+  font-size: 1.5em; }
+
+/*# sourceMappingURL=header.css.map */
