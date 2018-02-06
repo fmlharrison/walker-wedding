@@ -1,4 +1,13 @@
+@import "common";
+
 .slider-photo {
-    max-height: 480px;
-    margin: 0 auto;
+  max-height: 480px;
+  margin: 0 auto;
+}
+
+.home-page-title {
+  text-align: center;
+  font-family: $alt-font;
+  font-size: 2em;
+  padding: 10px 0px;
 }

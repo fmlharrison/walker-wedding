@@ -12,27 +12,30 @@ import our_family from "../data/our-family.json";
 class OurFamily extends Component {
   render() {
     return (
-      <div className="our-family">
-        <PersonDisplay
-          photo={father_of_groom}
-          parent="Father of the Groom"
-          info={our_family.joe.father}
-        />
-        <PersonDisplay
-          photo={mother_of_groom}
-          parent="Mother of the Groom"
-          info={our_family.joe.mother}
-        />
-        <PersonDisplay
-          photo={father_of_bride}
-          parent="Father of the Bride"
-          info={our_family.lucy.father}
-        />
-        <PersonDisplay
-          photo={mother_of_bride}
-          parent="Mother of the Bride"
-          info={our_family.lucy.mother}
-        />
+      <div>
+        <div className="our-family-title">Our Family</div>
+        <div className="our-family">
+          <PersonDisplay
+            photo={father_of_groom}
+            parent="Father of the Groom"
+            info={our_family.joe.father}
+          />
+          <PersonDisplay
+            photo={mother_of_groom}
+            parent="Mother of the Groom"
+            info={our_family.joe.mother}
+          />
+          <PersonDisplay
+            photo={father_of_bride}
+            parent="Father of the Bride"
+            info={our_family.lucy.father}
+          />
+          <PersonDisplay
+            photo={mother_of_bride}
+            parent="Mother of the Bride"
+            info={our_family.lucy.mother}
+          />
+        </div>
       </div>
     );
   }

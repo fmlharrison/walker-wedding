@@ -3,3 +3,10 @@
 .our-family {
   @include flex-layout(row, space-around);
 }
+
+.our-family-title {
+  text-align: center;
+  font-family: $alt-font;
+  font-size: 2em;
+  padding: 10px 0px;
+}

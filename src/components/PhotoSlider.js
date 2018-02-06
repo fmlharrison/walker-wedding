@@ -27,6 +27,7 @@ class PhotoSlider extends Component {
 
     return (
       <div>
+        <div className="home-page-title">Joe &amp; Lucy</div>
         <Slider {...settings}>
           <div key={1}>
             <img src={engagement} className="slider-photo" alt="wedding-caribean" />
