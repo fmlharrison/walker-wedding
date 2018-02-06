@@ -3,6 +3,7 @@ import ParentDisplay from "./ParentDisplay";
 import "../assets/css/our-parents.css";
 
 import father_of_groom from "../images/father-of-groom.png";
+import mother_of_groom from "../images/mother-of-groom.png";
 import father_of_bride from "../images/father-of-bride.png";
 import mother_of_bride from "../images/mother-of-bride.png";
 
@@ -18,7 +19,7 @@ class OurFamily extends Component {
           info={our_family.joe.father}
         />
         <ParentDisplay
-          photo="http://www.uriux.com/wp-content/uploads/2017/09/female-placeholder.jpg"
+          photo={mother_of_groom}
           parent="Mother of the Groom"
           info={our_family.joe.mother}
         />
