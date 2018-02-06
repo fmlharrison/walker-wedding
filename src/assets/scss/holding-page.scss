@@ -1,3 +1,5 @@
+@import "common";
+
 .holding-page {
   height: 100vh;
   position: relative;
@@ -11,22 +13,19 @@
   left: 50%; /* horizontal alignment */
   top: 50%; /* vertical alignment */
   transform: translate(-50%, -50%);
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .overlay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-layout(column, center);
   background-color: white;
   text-align: center;
-  flex-direction: column;
   flex-grow: 1;
   position: absolute;
   left: 50%; /* horizontal alignment */
   top: 50%; /* vertical alignment */
   transform: translate(-50%, -50%);
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .main {
@@ -34,12 +33,12 @@
 }
 
 .holding-text-title {
-  font-family: "Forum", cursive;
+  font-family: $main-font;
   font-size: 3em;
 }
 
 .holding-text-details {
-  font-family: "Forum", cursive;
+  font-family: $main-font;
   font-size: 1.5em;
   margin: 5px;
 }

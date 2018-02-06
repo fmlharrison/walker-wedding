@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,QAAS;EACP,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,MAAM,EAAE,GAAG;EACX,UAAU,EAAE,UAAU;EACtB,gBAAgB,EAAE,kCAAkC;EACpD,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;;AAGxB,KAAM;EACJ,IAAI,EAAE,CAAC",
-"sources": ["../scss/wedding-wrapper.scss"],
-"names": [],
-"file": "wedding-wrapper.css"
-}
