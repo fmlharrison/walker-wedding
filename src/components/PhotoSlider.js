@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
+import CountdownWrapper from "./CountdownWrapper";
+
 import engagement from "../images/engagement.jpg";
 import caribean from "../images/caribean-2009.jpg";
 import iceland from "../images/iceland-2016.jpg";
 import lankowi from "../images/lankowi-2015.jpg";
 import portugal from "../images/portugal-2007.jpg";
+import usa from "../images/usa-2016.jpg";
 
 import "../assets/css/photo-slider.css";
 
@@ -40,7 +43,11 @@ class PhotoSlider extends Component {
           <div key={5}>
             <img src={portugal} className="slider-photo" alt="wedding-portugal" />
           </div>
+          <div key={6}>
+            <img src={usa} className="slider-photo" alt="wedding-usa" />
+          </div>
         </Slider>
+        <CountdownWrapper />
       </div>
     );
   }

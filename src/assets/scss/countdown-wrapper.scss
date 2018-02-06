@@ -1,0 +1,7 @@
+@import "common";
+
+.countdown-wrapper {
+  @include flex-layout(row, center);
+  padding: $piping;
+  margin-top: 25px;
+}

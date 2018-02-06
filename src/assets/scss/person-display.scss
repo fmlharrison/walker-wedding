@@ -1,0 +1,28 @@
+@import "common";
+
+.person-display {
+  width: 25%;
+  @include flex-layout(column, center);
+  justify-content: start !important; 
+  padding: $gutter;
+  margin: $gutter;
+}
+
+.person-photo {
+  height: 200px;
+  width: 200px;
+  border-radius: $radius;
+}
+
+.person-info {
+  text-align: center;
+  font-family: $main-font;
+
+  .name {
+    font-size: 2em;
+  }
+
+  .bio {
+    font-size: 1em;
+  }
+}

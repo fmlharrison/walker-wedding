@@ -6,6 +6,7 @@ import WeddingWrapper from "./components/WeddingWrapper";
 import PhotoSlider from "./components/PhotoSlider";
 import OurStory from "./components/OurStory";
 import OurFamily from "./components/OurFamily";
+import OurFriends from "./components/OurFriends";
 // import LandingPage from "./components/LandingPage";
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
             <Route exact path="/" component={PhotoSlider} />
             <Route path="/our-story" component={OurStory} />
             <Route path="/our-family" component={OurFamily} />
+            <Route path="/our-friends" component={OurFriends} />
           </Switch>
         </WeddingWrapper>
       </Router>
