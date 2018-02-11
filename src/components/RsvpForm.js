@@ -27,7 +27,7 @@ class RsvpForm extends Component {
 
   render() {
     return (
-      <form className="rsvp-form-wrapper" onSubmit={this.handleSubmit}>
+      <form className="rsvp-form-wrapper" method="POST" action="https://formspree.io/walkerwedding28@gmail.com">
         <input
           className="rsvp-input"
           type="text"
