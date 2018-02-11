@@ -1,0 +1,47 @@
+@import "common";
+
+.rsvp-page {
+  @include flex-layout(column, center);
+  font-family: $main-font;
+}
+
+.rsvp-form-wrapper {
+  @include flex-layout(column, center);
+}
+
+.rsvp-input {
+  padding: 10px 10px;
+  margin: $piping;
+  border-radius: 5px;
+  border: 0;
+  font-size: 1.1em;
+  font-family: $main-font;
+  width: 400px;
+}
+
+.attending-wrapper {
+  margin: $piping;
+  font-size: 1.1em;
+}
+
+.attend-buttons-label {
+  margin: 0px 10px;
+}
+
+.rsvp-submit-button {
+  font-family: $main-font;
+  font-size: 1.1em;
+  border-radius: 5px;
+  border: 0;
+  width: 100px;
+  height: 30px;
+  margin: $piping;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.rsvp-submit-message {
+  font-size: 1.5em;
+  padding: $piping;
+}
