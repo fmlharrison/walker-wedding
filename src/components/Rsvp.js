@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import RsvpForm from "./RsvpForm";
+import CountdownWrapper from "./CountdownWrapper";
 import "../assets/css/rsvp.css";
 
 class Rsvp extends Component {
@@ -72,6 +73,7 @@ class Rsvp extends Component {
         <div className="rsvp-page__title">RSVP</div>
         {this.rsvpSubmitResult()}
         <RsvpForm rsvpEmail={this.sendEmail} />
+        <CountdownWrapper />
       </div>
     );
   }

@@ -6,7 +6,6 @@ import CountdownWrapper from "./CountdownWrapper";
 import engagement from "../images/engagement.jpg";
 import caribean from "../images/caribean-2009.jpg";
 import iceland from "../images/iceland-2016.jpg";
-import lankowi from "../images/lankowi-2015.jpg";
 import portugal from "../images/portugal-2007.jpg";
 import usa from "../images/usa-2016.jpg";
 
@@ -39,12 +38,9 @@ class PhotoSlider extends Component {
             <img src={iceland} className="slider-photo" alt="wedding-iceland" />
           </div>
           <div key={4}>
-            <img src={lankowi} className="slider-photo" alt="wedding-lankowi" />
-          </div>
-          <div key={5}>
             <img src={portugal} className="slider-photo" alt="wedding-portugal" />
           </div>
-          <div key={6}>
+          <div key={5}>
             <img src={usa} className="slider-photo" alt="wedding-usa" />
           </div>
         </Slider>

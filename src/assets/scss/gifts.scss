@@ -1,0 +1,24 @@
+@import "common";
+
+.gifts {
+  @include flex-layout(column, center);
+  font-family: $main-font;
+}
+
+.gifts__title {
+  @include page-titles;
+}
+
+.gifts__details {
+  min-width: 500px;
+  width: 70%;
+  text-align: center;
+  margin: $piping;
+  font-size: 1.2em;
+}
+
+.gifts__photo {
+  border-radius: $radius;
+  height: 350px;
+  margin: $piping;
+}
