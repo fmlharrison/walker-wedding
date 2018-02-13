@@ -1,0 +1,35 @@
+@import "common";
+
+.big-day {
+  @include flex-layout(column, center);
+  font-family: $main-font;
+}
+
+.big-day__title {
+  @include page-titles;
+}
+
+.big-day__details {
+  min-width: 500px;
+  width: 70%;
+  text-align: center;
+  margin: $piping;
+  font-size: 1.1em;
+}
+
+.big-day__date {
+  font-size: 1.2em;
+}
+
+.big-day__address {
+  font-size: 1.2em;
+  margin: $piping;
+}
+
+.big-day__info {
+  padding: $piping;
+}
+
+.big-day__contact {
+  padding: $piping;
+}

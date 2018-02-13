@@ -5,7 +5,6 @@ class RsvpForm extends Component {
     super(props);
     this.state = {
       name: "",
-      plus_one: "",
       email: "",
       attending: "Yes",
       dietary: "",
@@ -33,13 +32,6 @@ class RsvpForm extends Component {
           type="text"
           name="name"
           placeholder="Your name"
-          onChange={this.handleChange}
-        />
-        <input
-          className="rsvp-input"
-          type="text"
-          name="plus_one"
-          placeholder="Your plus one's name"
           onChange={this.handleChange}
         />
         <input

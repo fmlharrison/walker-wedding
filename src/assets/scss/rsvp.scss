@@ -9,6 +9,10 @@
   @include flex-layout(column, center);
 }
 
+.rsvp-page__title {
+  @include page-titles;
+}
+
 .rsvp-input {
   padding: 10px 10px;
   margin: $piping;

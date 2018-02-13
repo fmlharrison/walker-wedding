@@ -38,7 +38,6 @@ class Rsvp extends Component {
 
     const body = {
       Name: name,
-      Plus_One: plus_one,
       Email: email,
       Attending: attending,
       Dietary_Requirements: dietary,
@@ -53,7 +52,7 @@ class Rsvp extends Component {
     if (this.state.hasSubmitted) {
       return (
         <div className="rsvp-submit-message">
-          Thanks for RSVPing! We'll see you at the wedding.
+          Thanks for RSVPing!
         </div>
       );
     }
@@ -70,7 +69,7 @@ class Rsvp extends Component {
   render() {
     return (
       <div className="rsvp-page">
-        <h2>RSVP</h2>
+        <div className="rsvp-page__title">RSVP</div>
         {this.rsvpSubmitResult()}
         <RsvpForm rsvpEmail={this.sendEmail} />
       </div>

@@ -14,3 +14,9 @@ $radius: 50%;
   justify-content: $alignment;
   align-items: $alignment;
 }
+
+@mixin page-titles {
+  font-family: $alt-font;
+  font-size: 2em;
+  padding: $piping;
+}

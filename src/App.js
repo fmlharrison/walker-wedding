@@ -8,6 +8,7 @@ import OurStory from "./components/OurStory";
 import OurFamily from "./components/OurFamily";
 import OurFriends from "./components/OurFriends";
 import Rsvp from "./components/Rsvp";
+import TheBigDay from "./components/TheBigDay";
 // import LandingPage from "./components/LandingPage";
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
             <Route path="/our-story" component={OurStory} />
             <Route path="/our-family" component={OurFamily} />
             <Route path="/our-friends" component={OurFriends} />
+            <Route path="/the-big-day" component={TheBigDay} />
             <Route path="/rsvp" component={Rsvp} />
           </Switch>
         </WeddingWrapper>
