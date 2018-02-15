@@ -1,7 +1,17 @@
 @import "common";
+@import "media-profiles";
 
 .our-friends {
   @include flex-layout(row, space-around);
+
+  @include mobile {
+    @include flex-layout(column, center);
+  }
+
+  @include tablet-portrait {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .our-friends-title {

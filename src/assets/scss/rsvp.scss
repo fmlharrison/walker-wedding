@@ -1,4 +1,5 @@
 @import "common";
+@import "media-profiles";
 
 .rsvp-page {
   @include flex-layout(column, center);
@@ -21,6 +22,11 @@
   font-size: 1.1em;
   font-family: $main-font;
   width: 400px;
+
+  @include mobile {
+    min-width: $min-mobile-width;
+    width: 100%;
+  }
 }
 
 .attending-wrapper {

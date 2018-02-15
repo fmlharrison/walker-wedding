@@ -1,11 +1,35 @@
 @import "common";
+@import "media-profiles";
 
 .person-display {
-  width: 25%;
   @include flex-layout(column, center);
-  justify-content: start !important; 
-  padding: $gutter;
-  margin: $gutter;
+  justify-content: start !important;
+
+  @include laptop {
+    width: 25%;
+    padding: $gutter;
+    margin: $gutter;
+  }
+
+  @include tablet-landscape {
+    flex-grow: 1;
+    width: 45%;
+    padding: $gutter;
+    margin: $gutter;
+  }
+
+  @include tablet-portrait {
+    flex-grow: 1;
+    width: 45%;
+    padding: $gutter;
+    margin: $gutter;
+  }
+
+  @include mobile {
+    width: 100%;
+    padding: 0px 10px;
+    margin: $piping;
+  }
 }
 
 .person-photo {

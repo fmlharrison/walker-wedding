@@ -25,7 +25,7 @@ class PhotoSlider extends Component {
     };
 
     return (
-      <div>
+      <div className="home-page">
         <div className="home-page-title">Joe &amp; Lucy</div>
         <Slider {...settings}>
           <div key={1}>

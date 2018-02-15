@@ -1,4 +1,5 @@
 @import "common";
+@import "media-profiles";
 
 .our-story {
   @include flex-layout(column, center);
@@ -15,6 +16,12 @@
   width: 350px;
   border-radius: $radius;
   margin: $piping;
+
+  @include mobile {
+    min-width: $min-mobile-width;
+    height: auto;
+    padding: $gutter-sm;
+  }
 }
 
 .our-story-text {
@@ -25,4 +32,10 @@
   width: 70%;
   margin: $piping;
   text-align: center;
+
+  @include mobile {
+    min-width: $min-mobile-width;
+    width: 100%;
+    padding: $gutter-sm;
+  }
 }
