@@ -26,24 +26,26 @@ class PhotoSlider extends Component {
 
     return (
       <div className="home-page">
-        <div className="home-page-title">Joe &amp; Lucy</div>
-        <Slider {...settings}>
-          <div key={1}>
-            <img src={engagement} className="slider-photo" alt="wedding-caribean" />
-          </div>
-          <div key={2}>
-            <img src={caribean} className="slider-photo" alt="wedding-caribean" />
-          </div>
-          <div key={3}>
-            <img src={iceland} className="slider-photo" alt="wedding-iceland" />
-          </div>
-          <div key={4}>
-            <img src={portugal} className="slider-photo" alt="wedding-portugal" />
-          </div>
-          <div key={5}>
-            <img src={usa} className="slider-photo" alt="wedding-usa" />
-          </div>
-        </Slider>
+        <div className="home-page__title">Joe &amp; Lucy</div>
+        <div className="home-page__photos">
+          <Slider {...settings}>
+            <div key={1}>
+              <img src={engagement} className="slider-photo" alt="wedding-caribean" />
+            </div>
+            <div key={2}>
+              <img src={caribean} className="slider-photo" alt="wedding-caribean" />
+            </div>
+            <div key={3}>
+              <img src={iceland} className="slider-photo" alt="wedding-iceland" />
+            </div>
+            <div key={4}>
+              <img src={portugal} className="slider-photo" alt="wedding-portugal" />
+            </div>
+            <div key={5}>
+              <img src={usa} className="slider-photo" alt="wedding-usa" />
+            </div>
+          </Slider>
+        </div>
         <CountdownWrapper />
       </div>
     );

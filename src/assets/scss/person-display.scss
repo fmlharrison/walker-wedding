@@ -11,24 +11,19 @@
     margin: $gutter;
   }
 
-  @include tablet-landscape {
+  @include tablet {
     flex-grow: 1;
     width: 45%;
     padding: $gutter;
     margin: $gutter;
-  }
-
-  @include tablet-portrait {
-    flex-grow: 1;
-    width: 45%;
-    padding: $gutter;
-    margin: $gutter;
+    margin-bottom: 15px;
   }
 
   @include mobile {
     width: 100%;
     padding: 0px 10px;
     margin: $piping;
+    margin-bottom: 15px;
   }
 }
 

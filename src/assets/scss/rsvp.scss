@@ -24,7 +24,7 @@
   width: 400px;
 
   @include mobile {
-    min-width: $min-mobile-width;
+    min-width: $mobile-width;
     width: 100%;
   }
 }

@@ -19,7 +19,7 @@
   padding: $gutter-sm;
 
   @include mobile {
-    min-width: $min-mobile-width;
+    min-width: $mobile-width;
     width: 100%;
     padding: $gutter-sm;
   }

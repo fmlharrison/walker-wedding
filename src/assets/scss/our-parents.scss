@@ -8,7 +8,7 @@
     @include flex-layout(column, center);
   }
 
-  @include tablet-portrait {
+  @include tablet {
     display: flex;
     flex-wrap: wrap;
   }

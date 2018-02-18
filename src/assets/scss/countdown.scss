@@ -1,4 +1,5 @@
 @import "common";
+@import "media-profiles";
 
 //$easeIn: cubic-bezier(0.25, 0.46, 0.45, 0.94)
 //$easeOut: cubic-bezier(0.55, 0.085, 0.68, 0.53)
@@ -18,6 +19,7 @@ $turnDuration: 0.6s;
 $border: whitesmoke;
 $card: white;
 $font-size: 2.5em;
+$font-size-sm: 1.5em;
 $font-width: lighter;
 $font-color: lighten(black, 20%);
 
@@ -25,6 +27,12 @@ $font-color: lighten(black, 20%);
   display: flex;
   justify-content: space-between;
   width: 4 * 70px + 40px;
+
+  @include mobile {
+    display: flex;
+    justify-content: space-around;
+    width: $mobile-width;
+  }
 }
 
 .section {
@@ -48,6 +56,11 @@ $font-color: lighten(black, 20%);
   background-color: $card;
   border-radius: 3px;
   box-shadow: 0px 10px 10px -10px grey;
+
+  @include mobile {
+    width: 53px;
+    height: 45px;
+  }
 }
 
 .upperCard,
@@ -65,6 +78,10 @@ $font-color: lighten(black, 20%);
     font-family: $main-font;
     font-weight: $font-width;
     color: $font-color;
+
+    @include mobile {
+      font-size: $font-size-sm;
+    }
   }
 }
 
@@ -100,11 +117,20 @@ $font-color: lighten(black, 20%);
   overflow: hidden;
   backface-visibility: hidden;
 
+  @include mobile {
+    width: 53px;
+    height: 23px;
+  }
+
   span {
     font-family: $main-font;
     font-size: $font-size;
     font-weight: $font-width;
     color: $font-color;
+
+    @include mobile {
+      font-size: $font-size-sm;
+    }
   }
 
   &.unfold {

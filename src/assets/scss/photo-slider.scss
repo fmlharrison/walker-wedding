@@ -1,4 +1,5 @@
 @import "common";
+@import "media-profiles";
 
 .home-page {
   width: 100%;
@@ -9,7 +10,13 @@
   margin: 0 auto;
 }
 
-.home-page-title {
+.home-page__title {
   text-align: center;
   @include page-titles;
+}
+
+.home-page__photos {
+  @include mobile {
+    display: none;
+  }
 }

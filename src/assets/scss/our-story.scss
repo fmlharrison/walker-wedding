@@ -18,7 +18,7 @@
   margin: $piping;
 
   @include mobile {
-    min-width: $min-mobile-width;
+    min-width: $mobile-width;
     height: auto;
     padding: $gutter-sm;
   }
@@ -34,7 +34,7 @@
   text-align: center;
 
   @include mobile {
-    min-width: $min-mobile-width;
+    min-width: $mobile-width;
     width: 100%;
     padding: $gutter-sm;
   }

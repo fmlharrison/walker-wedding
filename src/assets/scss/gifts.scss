@@ -18,7 +18,7 @@
   font-size: 1.2em;
 
   @include mobile {
-    min-width: $min-mobile-width;
+    min-width: $mobile-width;
     width: 100%;
     padding: $gutter-sm;
   }
@@ -30,6 +30,6 @@
   margin: $piping;
 
   @include mobile {
-    height: $min-mobile-width;
+    height: $mobile-width;
   }
 }
