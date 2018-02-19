@@ -17,7 +17,7 @@ class TheBigDay extends Component {
         <div className="big-day__title">The Big Day</div>
         <div className="big-day__details">
           <p className="big-day__date">
-            Join us on {moment(the_big_day.date).format("dddd Do MMMM YYYY @ h:mma")}
+            Join us on {moment(the_big_day.date).format("dddd Do MMMM YYYY")}
           </p>
           <div className="big-day__address">{this.renderDate()}</div>
           <p className="big-day__info">{the_big_day.info}</p>

@@ -8,6 +8,7 @@ $gutter: 0px 15px;
 $gutter-sm: 0px 10px;
 $piping: 10px 0px;
 $radius: 50%;
+$line-height: 1.5;
 
 @mixin flex-layout($direction, $alignment) {
   display: flex;

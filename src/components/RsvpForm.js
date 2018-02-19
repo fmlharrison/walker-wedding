@@ -31,7 +31,7 @@ class RsvpForm extends Component {
           className="rsvp-input"
           type="text"
           name="name"
-          placeholder="Your name"
+          placeholder="Your name(s)"
           onChange={this.handleChange}
         />
         <input

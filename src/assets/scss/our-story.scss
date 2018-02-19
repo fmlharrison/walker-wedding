@@ -32,6 +32,7 @@
   width: 70%;
   margin: $piping;
   text-align: center;
+  line-height: $line-height;
 
   @include mobile {
     min-width: $mobile-width;
