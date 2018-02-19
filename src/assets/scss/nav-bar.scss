@@ -1,0 +1,12 @@
+@import "common";
+@import "media-profiles";
+
+.nav-bar-small {
+  @include tablet {
+    display: none;
+  }
+
+  @include laptop {
+    display: none;
+  }
+}
