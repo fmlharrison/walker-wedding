@@ -1,44 +1,23 @@
 @import "common";
 
 .holding-page {
-  height: 100vh;
-  position: relative;
-}
-
-.wedding-logo {
-  height: 100vh;
-  margin: 0 auto;
-  opacity: 0.1;
-  position: absolute;
-  left: 50%; /* horizontal alignment */
-  top: 50%; /* vertical alignment */
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.overlay {
   @include flex-layout(column, center);
-  background-color: white;
-  text-align: center;
-  flex-grow: 1;
-  position: absolute;
-  left: 50%; /* horizontal alignment */
-  top: 50%; /* vertical alignment */
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0);
+  flex: 1;
 }
 
-.main {
-  margin: 20px;
+.holding-page--main {
+  margin-bottom: 35px;
 }
 
-.holding-text-title {
+.holding-page--title {
   font-family: $main-font;
-  font-size: 3em;
+  font-size: 2em;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
-.holding-text-details {
+.holding-page--details {
   font-family: $main-font;
   font-size: 1.5em;
-  margin: 5px;
+  margin-bottom: 30px;
 }

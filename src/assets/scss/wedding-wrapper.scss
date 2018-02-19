@@ -1,4 +1,5 @@
 @import "common";
+@import "media-profiles";
 
 .wrapper {
   min-height: 100vh;
@@ -18,4 +19,8 @@
   align-items: flex-start;
   flex: 1;
   padding: $piping;
+
+  @include mobile {
+    align-items: center;
+  }
 }
