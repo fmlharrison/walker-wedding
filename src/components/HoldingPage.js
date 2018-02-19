@@ -19,10 +19,6 @@ class HoldingPage extends Component {
           <div className="holding-text-details">
             Please join us on 28th July
           </div>
-          <div className="holding-text-details">Brookfield Barn</div>
-          <div className="holding-text-details">Winterpit Lane</div>
-          <div className="holding-text-details">Lower Beeding</div>
-          <div className="holding-text-details">Horsham RH13 6LY</div>
         </div>
       </div>
     );
