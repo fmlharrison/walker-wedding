@@ -1,7 +1,17 @@
 @import "common";
 
 .footer {
-  @include flex-layout(row, center);
-  padding: $piping;
-  margin-top: 25px;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: $main-font;
+}
+
+.footer__link {
+  color: $font-colour;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: none;
+    color: $hover-colour;
+  }
 }

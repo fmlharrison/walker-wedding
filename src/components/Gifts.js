@@ -16,7 +16,7 @@ class Gifts extends Component {
       <div className="gifts">
         <div className="gifts__title">The Gifts</div>
         <div className="gifts__details">{this.renderGiftsText()}</div>
-        <img className="gifts__photo" src={lankowi} alt="Lankowi photo" />
+        <img className="gifts__photo" src={lankowi} alt="Joe and Lucy in Lankowi" />
       </div>
     );
   }

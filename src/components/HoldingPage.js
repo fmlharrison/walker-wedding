@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import Countdown from "./Countdown";
-import logo from "../images/logo.png";
 import "../assets/css/holding-page.css";
 
 class HoldingPage extends Component {

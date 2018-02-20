@@ -35,7 +35,7 @@ class Rsvp extends Component {
   };
 
   emailBody = emailDetails => {
-    const { name, plus_one, email, attending, dietary, song } = emailDetails;
+    const { name, email, attending, dietary, song } = emailDetails;
 
     const body = {
       Name: name,
