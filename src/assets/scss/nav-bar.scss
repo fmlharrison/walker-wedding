@@ -10,3 +10,27 @@
     display: none;
   }
 }
+
+.nav-bar-small__title {
+  color: $font-colour;
+  font-family: $alt-font;
+
+  &:hover {
+    text-decoration: none;
+    color: $hover-colour;
+  }
+}
+
+.nav-bar-small__link {
+  color: $font-colour;
+  font-family: $alt-font;
+
+  &:hover {
+    text-decoration: none;
+    color: $hover-colour;
+  }
+}
+
+.nav-item {
+  margin: 10px;
+}

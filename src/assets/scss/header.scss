@@ -10,28 +10,38 @@
   @include mobile {
     display: none;
   }
-}
 
-li {
-  list-style: none;
-  padding: $piping;
-  @include flex-layout(column, center);
-  text-align: center;
+  li {
+    list-style: none;
+    padding: $piping;
+    margin: 0px 5px;
+    @include flex-layout(column, center);
+    text-align: center;
 
-  @include mobile {
-    display: none;
+    @include mobile {
+      display: none;
+    }
   }
-}
 
-.header-link {
-  display: inline-flex;
-  align-items: center;
-  font-family: $alt-font;
-  text-decoration: none;
-  color: $font-colour;
-  font-size: 1.5em;
+  .header-link {
+    display: inline-flex;
+    align-items: center;
+    font-family: $alt-font;
+    text-decoration: none;
+    color: $font-colour;
+    font-size: 1.5em;
 
-  @include mobile {
-    display: none;
+    &:hover {
+      text-decoration: none;
+      color: gray;
+    }
+
+    @include tablet {
+      font-size: 1.1em;
+    }
+
+    @include mobile {
+      display: none;
+    }
   }
 }
