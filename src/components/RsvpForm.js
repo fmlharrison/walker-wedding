@@ -26,26 +26,26 @@ class RsvpForm extends Component {
 
   render() {
     return (
-      <form className="rsvp-form-wrapper" onSubmit={this.handleSubmit}>
+      <form className="rsvp-form" onSubmit={this.handleSubmit}>
         <input
-          className="rsvp-input"
+          className="rsvp-form__input"
           type="text"
           name="name"
           placeholder="Your name(s)"
           onChange={this.handleChange}
         />
         <input
-          className="rsvp-input"
+          className="rsvp-form__input"
           type="email"
           name="email"
           placeholder="Your e-mail"
           onChange={this.handleChange}
         />
-        <div className="attending-wrapper" htmlFor=".attending-buttons">
+        <div className="rsvp-form__attending" htmlFor=".attending-buttons">
           Can you come?
         </div>
-        <div className="attending-wrapper">
-          <label className="attend-buttons-label" htmlFor="#attending">
+        <div className="rsvp-form__attending">
+          <label className="rsvp-form__attending-buttons-label" htmlFor="#attending">
             Yes
           </label>
           <input
@@ -56,7 +56,7 @@ class RsvpForm extends Component {
             value="Yes"
             onChange={this.handleChange}
           />
-          <label className="attend-buttons-label" htmlFor="#attending">
+          <label className="rsvp-form__attending-buttons-label" htmlFor="#attending">
             No
           </label>
           <input
@@ -69,20 +69,20 @@ class RsvpForm extends Component {
           />
         </div>
         <input
-          className="rsvp-input"
+          className="rsvp-form__input"
           type="text"
           name="dietary"
           placeholder="Any dietary requirements?"
           onChange={this.handleChange}
         />
         <input
-          className="rsvp-input"
+          className="rsvp-form__input"
           type="text"
           name="song"
           placeholder="Your song request"
           onChange={this.handleChange}
         />
-        <input className="rsvp-submit-button" type="submit" value="Send" />
+        <input className="rsvp-form__submit-button" type="submit" value="Send" />
       </form>
     );
   }

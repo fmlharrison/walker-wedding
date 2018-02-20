@@ -6,12 +6,12 @@
   height: 100%;
 }
 
-.our-story-title {
+.our-story__title {
   text-align: center;
   @include page-titles;
 }
 
-.our-story-image {
+.our-story__image {
   height: 350px;
   width: 350px;
   border-radius: $radius;
@@ -24,7 +24,7 @@
   }
 }
 
-.our-story-text {
+.our-story__text {
   width: 100%;
   font-family: $main-font;
   font-size: 1em;

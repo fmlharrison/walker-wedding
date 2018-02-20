@@ -9,9 +9,9 @@ class OurStory extends Component {
   render() {
     return (
       <div className="our-story">
-        <div className="our-story-title">Our Story</div>
-        <img src={joe_and_lucy} alt="Joe and Lucy" className="our-story-image" />
-        <div className="our-story-text">{story.our_story}</div>
+        <div className="our-story__title">Our Story</div>
+        <img src={joe_and_lucy} alt="Joe and Lucy" className="our-story__image" />
+        <div className="our-story__text">{story.our_story}</div>
       </div>
     );
   }

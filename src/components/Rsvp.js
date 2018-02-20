@@ -52,14 +52,14 @@ class Rsvp extends Component {
   rsvpSubmitResult = () => {
     if (this.state.hasSubmitted) {
       return (
-        <div className="rsvp-submit-message">
+        <div className="rsvp-form__submit-message">
           Thanks for RSVPing!
         </div>
       );
     }
     if (this.state.hasErrored) {
       return (
-        <div className="rsvp-submit-message">
+        <div className="rsvp-form__submit-message">
           Something went wrong. Please RSVP again.
         </div>
       );

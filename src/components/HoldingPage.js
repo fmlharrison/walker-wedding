@@ -7,13 +7,13 @@ class HoldingPage extends Component {
   render() {
     return (
       <div className="holding-page">
-          <div className="holding-page--title">
+          <div className="holding-page__title">
             Joe &amp; Lucy<br /> are getting married in:
           </div>
-          <div className="holding-page--main">
+          <div className="holding-page__main">
             <Countdown />
           </div>
-          <div className="holding-page--details">
+          <div className="holding-page__details">
             Please join us on 28th July!
           </div>
       </div>

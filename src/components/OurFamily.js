@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PersonDisplay from "./PersonDisplay";
-import "../assets/css/our-parents.css";
+import "../assets/css/our-family.css";
 
 import father_of_groom from "../images/father-of-groom.png";
 import mother_of_groom from "../images/mother-of-groom.png";
@@ -13,7 +13,7 @@ class OurFamily extends Component {
   render() {
     return (
       <div>
-        <div className="our-family-title">Our Family</div>
+        <div className="our-family__title">Our Family</div>
         <div className="our-family">
           <PersonDisplay
             photo={father_of_groom}

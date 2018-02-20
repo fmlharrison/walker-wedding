@@ -27,13 +27,13 @@
   }
 }
 
-.person-photo {
+.person-display__photo {
   height: 200px;
   width: 200px;
   border-radius: $radius;
 }
 
-.person-info {
+.person-display__text {
   text-align: center;
   font-family: $main-font;
   line-height: $line-height;

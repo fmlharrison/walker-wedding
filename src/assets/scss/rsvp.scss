@@ -6,7 +6,7 @@
   font-family: $main-font;
 }
 
-.rsvp-form-wrapper {
+.rsvp-form {
   @include flex-layout(column, center);
 }
 
@@ -14,7 +14,7 @@
   @include page-titles;
 }
 
-.rsvp-input {
+.rsvp-form__input {
   padding: 10px 10px;
   margin: $piping;
   border-radius: 5px;
@@ -29,16 +29,16 @@
   }
 }
 
-.attending-wrapper {
+.rsvp-form__attending {
   margin: $piping;
   font-size: 1.1em;
 }
 
-.attend-buttons-label {
+.rsvp-form__attending-buttons-label {
   margin: 0px 10px;
 }
 
-.rsvp-submit-button {
+.rsvp-form__submit-button {
   font-family: $main-font;
   font-size: 1.1em;
   border-radius: 5px;
@@ -51,7 +51,7 @@
   }
 }
 
-.rsvp-submit-message {
+.rsvp-form__submit-message {
   font-size: 1.5em;
   padding: $piping;
 }

@@ -14,7 +14,7 @@ class OurFriends extends Component {
   render() {
     return (
       <div>
-        <div className="our-friends-title">Our Friends</div>
+        <div className="our-friends__title">Our Friends</div>
         <div className="our-friends">
           <PersonDisplay
             photo={ali}

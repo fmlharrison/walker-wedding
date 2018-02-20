@@ -21,7 +21,7 @@ class Header extends Component {
     return headerLinks.map(link => {
       return (
         <li>
-          <Link className="header-link" to={link.href}>
+          <Link className="header__link" to={link.href}>
             {link.name}
           </Link>
         </li>
