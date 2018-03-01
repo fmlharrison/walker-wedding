@@ -40,7 +40,7 @@ class Countdown extends Component {
   }
 
   updateTime() {
-    const weddingDate = new Date("2018-07-28 13:30:00").getTime();
+    const weddingDate = new Date("2018-07-28T13:30:00").getTime();
     const now = new Date().getTime();
     const diffInDate = this.convertMS(weddingDate - now);
 
