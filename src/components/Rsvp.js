@@ -8,12 +8,14 @@ class Rsvp extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      isSubmitting: false,
       hasSubmitted: false,
       hasErrored: false
     };
   }
 
   sendEmail = formInputDetails => {
+    this.setState({ isSubmitting: true });
     fetch("https://formspree.io/walkerwedding28@gmail.com", {
       method: "POST",
       body: this.emailBody(formInputDetails),
@@ -23,13 +25,18 @@ class Rsvp extends Component {
     })
       .catch(err => {
         console.log(err);
-        this.setState({ hasErrored: true });
+        this.setState({
+          isSubmitting: false,
+          hasErrored: true
+        });
       })
       .then(r => r.json())
       .then(res => {
         if (res.success === "email sent") {
-          console.log(res);
-          this.setState({ hasSubmitted: true });
+          this.setState({
+            isSubmitting: false,
+            hasSubmitted: true
+          });
         }
       });
   };
@@ -52,9 +59,7 @@ class Rsvp extends Component {
   rsvpSubmitResult = () => {
     if (this.state.hasSubmitted) {
       return (
-        <div className="rsvp-form__submit-message">
-          Thanks for RSVPing!
-        </div>
+        <div className="rsvp-form__submit-message">Thanks for RSVPing!</div>
       );
     }
     if (this.state.hasErrored) {
@@ -72,7 +77,10 @@ class Rsvp extends Component {
       <div className="rsvp-page">
         <div className="rsvp-page__title">RSVP</div>
         {this.rsvpSubmitResult()}
-        <RsvpForm rsvpEmail={this.sendEmail} />
+        <RsvpForm
+          rsvpEmail={this.sendEmail}
+          isSubmitting={this.state.isSubmitting}
+        />
         <CountdownWrapper />
       </div>
     );
